@@ -1,0 +1,33 @@
+{
+  "name": "@ikari-engine/tests-0",
+  "version": "0.0.0-development",
+  "description": "Ikari Engine test repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikari-engine/tests-0.git"
+  },
+  "keywords": [
+    "ikari",
+    "engine",
+    "tests",
+    "application",
+    "test"
+  ],
+  "author": "Pedro Xavier Leite Cavadas",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ikari-engine/tests-0/issues"
+  },
+  "homepage": "https://github.com/ikari-engine/tests-0#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3"
+  }
+}
