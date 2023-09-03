@@ -4,7 +4,11 @@
   "description": "Ikari Engine test repository",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "build:watch": "npm run build -- --watch",
     "test": "mocha",
+    "test:watch": "npm run test -- --watch",
+    "test:coverage": "nyc npm run test",
     "prepare": "husky install",
     "commitlint": "commitlint --edit"
   },
@@ -28,7 +32,15 @@
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/sinon": "^10.0.16",
+    "chai": "^4.3.8",
     "husky": "^8.0.3",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.2.0",
     "typescript": "^5.2.2"
   }
 }
