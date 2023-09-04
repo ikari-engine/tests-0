@@ -1,0 +1,41 @@
+# Source files
+src/
+
+# Test files
+test/
+
+# Documentation
+docs/
+
+# GitHub CI
+.github/
+
+# Husky
+.husky/
+
+# Commitlint configuration
+.commitlintrc.json
+
+# Mocha configuration
+.mocharc.json
+
+# Coverage configuration
+.nycrc.json
+
+# Semantic Release configuration
+.releaserc.json
+
+# Documentation configuration
+.typedocrc.json
+
+# Package lock
+package-lock.json
+
+# SonarQube configuration
+sonar-project.properties
+
+# TypeScript configuration
+tsconfig.json
+
+# Gitignore
+.gitignore
