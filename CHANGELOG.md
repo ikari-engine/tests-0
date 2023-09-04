@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/ikari-engine/tests-0/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2023-09-04)
+
+
+### Bug Fixes
+
+* **publish-automation:** fix publish to use public package ([af92fbd](https://github.com/ikari-engine/tests-0/commit/af92fbd1eeb0677d864075529762fe1c953ed90e))
+
 # 1.0.0-beta.1 (2023-09-04)
 
 
